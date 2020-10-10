@@ -1,8 +1,4 @@
-spring:
-    mvc:
-        view:
-            prefix: /WEB-INF/jsp/
-            suffix: .jsp
-server:
-    port: 9090
-    context-path: /test
+management.endpoint.threaddump.enabled=true
+management.info.env.enabled=true
+management.endpoints.web.exposure.include=*
+management.server.port=8081
